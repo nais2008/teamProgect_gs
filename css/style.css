@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #000;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+  transition: all .2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+}
+
+.sign_btn {
+  font-size: 18px;
+}
+
+.shop_btn {
+  font-size: 24px;
+  padding: 10px 25px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.header__navigation {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.header__navigation .nav__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__navigation .nav__logo form button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header__navigation .nav__logo a h3 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #000;
+}
+
+.header__navigation nav ul {
+  align-items: center;
+  display: flex;
+  gap: 65px;
+}
+
+.header__navigation nav ul li {
+  list-style: none;
+}
+
+.header__navigation nav ul li a {
+  color: #000;
+  font-size: 22px;
+  transition: all .2s;
+}
+
+.header__navigation nav ul li a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.header__main {
+  margin: 0 100px;
+  background: rgba(244, 246, 245, 1);
+  display: flex;
+  border-radius: 40px;
+}
+
+.header__main .header__main-left {
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.header__main .header__main-left article {
+  font-size: 86px;
+  font-weight: 900;
+}
+
+.header__main .header__main-left article .text {
+  font-weight: 900;
+  margin-top: -20px;
+  width: 500px;
+}
+
+.header__main .header__main-left article .text:nth-child(1) {
+  background-color: #fff;
+}
+
+.header__main .header__main-left article .text:nth-child(3) {
+  background-color: rgba(235, 217, 107, 1);
+}
+
+.header__main .header__main-left aside p {
+  font-size: 32px;
+}
+
+.header__main .header__main-left section {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.header__main .header__main-right {
+  float: right;
+  position: relative;
+}
+
+.header__main .header__main-right img:nth-child(5) {
+  width: 1301px;
+  margin-top: -200px;
+}
+
+.main_brand {
+  display: flex;
+  justify-content: center;
+  gap: 81px;
+  margin-top: 40px;
+  background-color: rgba(230, 199, 68, 1);
+}
+
+.main_brand img {
+  width: 118.26px;
+}
+
+.main_new-arrivals {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/*
+В секции буде h1 и svg вместе, потом будет еще три секции с картинкми и текстом, в основном все 
+всё понел спасибо)
+не за что)
+*/
