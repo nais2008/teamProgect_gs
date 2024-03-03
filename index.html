@@ -5,104 +5,364 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Fashion</title>
+
+  <!-- CSS -->
+
   <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+  <!-- FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+  <!-- Chatra {literal} -->
+  <script>
+    (function (d, w, c) {
+      w.ChatraID = 'HkjoreZ7TDjDoHKoE';
+      var s = d.createElement('script');
+      w[c] = w[c] || function () {
+        (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+  </script>
+  <!-- /Chatra {/literal} -->
 </head>
 
 <body>
-  <!-- header -->
-  <header>
-    <section class="header__navigation">
-      <!-- LOGO -->
-      <section class="nav__logo">
-        <form action="index.html">
-          <button>
-            <img src="img/logo.svg">
-          </button>
-        </form>
-        <a href="index.htnl">
-          <h3>Fashion</h3>
-        </a>
-      </section>
-      <!-- Navigation -->
-      <nav class="navigation">
-        <ul>
-          <li><a href="#">Catalogue</a></li>
-          <li><a href="#">Fashion</a></li>
-          <li><a href="#">Favoruite</a></li>
-          <li><a href="#">Lifestyle</a></li>
-          <li>
-            <button class="sign_btn btn">
-              SING UP
+  <div class="wraper">
+    <!-- HEADER -->
+    <header>
+      <section class="header__navigation">
+        <!-- LOGO -->
+        <section class="nav__logo">
+          <form action="index.html">
+            <button>
+              <img src="img/logo.svg">
             </button>
-          </li>
-        </ul>
-      </nav>
-    </section>
-    <main class="header__main">
-      <section class="header__main-left">
-        <article>
-          <h1 class="text">LET'S</h1>
-          <h1 class="text">EXPLORE</h1>
-          <h1 class="text">UNIQUE</h1>
-          <h1 class="text">CLOTHES.</h1>
-        </article>
-        <aside>
-          <p>
-            Live for Influential and Innovative fashion!
-          </p>
-        </aside>
-        <section class="header__main_left-button">
-          <img src="img/header__main-button.svg" alt="">
-          <button class="shop_btn btn">Shop now</button>
+          </form>
+          <a href="index.html">
+            <h3>Fashion</h3>
+          </a>
+        </section>
+        <!-- NAVIGATION -->
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Favoruite</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li>
+              <button class="sign_btn btn">
+                SING UP
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- MAIN IN HEADER -->
+      <div class="header__main">
+        <div class="container">
+          <div class="wraper">
+            <section class="header__main-text">
+              <article>
+                <h1>
+                  LET’S<br>
+                  EXPLORE<br>
+                  UNIQUE<br>
+                  CLOTHES.
+                </h1>
+                <span class="block_1"></span>
+                <span class="block_2"></span>
+                <p>Live for Influential and Innovative fashion!</p>
+              </article>
+              <div class="header__main-button">
+                <img src="img/header__main-button.svg" alt="">
+                <button class="btn shop_btn">Shop Now</button>
+              </div>
+            </section>
+            <section class="header__main-img">
+              <img src="img/start.svg" alt="star">
+              <img src="img/start.svg" alt="star">
+              <img src="img/start.svg" alt="star">
+              <img src="img/start.svg" alt="star">
+              <span class="img_girl"></span>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- BRENDS -->
+      <section class="main_brand">
+        <img src="img/HandM.png-removebg-preview.png" alt="brand">
+        <img src="img/obey-removebg-preview.png" alt="brand">
+        <img src="img/shopify-removebg-preview.png" alt="brand">
+        <img src="img/lacoste-removebg-preview.png" alt="brand">
+        <img src="img/levis-removebg-preview.png" alt="brand">
+        <img src="img/amazon-removebg-preview.png" alt="brand">
+      </section>
+      <!-- NEW ARRIVALS -->
+      <section class="main__girls">
+        <div class="container">
+          <div class="wraper">
+            <article>
+              <h1>new arrivals</h1>
+              <img src="/img/header__main-button.svg" alt="">
+            </article>
+            <section>
+              <div>
+                <span class="girls_img-shop girls_img-shop1"></span>
+                <aside>
+                  <div>
+                    <h4>Hoodies & Sweetshirt</h4>
+                    <p>Explore Now!</p>
+                  </div>
+                  <span>→</span>
+                </aside>
+              </div>
+              <div>
+                <span class="girls_img-shop girls_img-shop2"></span>
+                <aside>
+                  <div>
+                    <h4>Coats & Parkas</h4>
+                    <p>Explore Now!</p>
+                  </div>
+                  <span>→</span>
+                </aside>
+              </div>
+              <div>
+                <span class="girls_img-shop girls_img-shop3"></span>
+                <aside>
+                  <div>
+                    <h4>Tees & T-Shirt</h4>
+                    <p>Explore Now!</p>
+                  </div>
+                  <span>→</span>
+                </aside>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- PAYDAY SALE NOW -->
+      <section class="main__shop">
+        <div class="pay__girl">
+          <img src="img/start.svg" alt="star">
+          <img src="img/start.svg" alt="star">
+          <img src="img/start.svg" alt="star">
+          <img src="img/start.svg" alt="star">
+        </div>
+        <section class="main__shop-text">
+          <article>
+            <h1>
+              PAYDAY<br>
+              SALE NOW
+            </h1>
+            <span></span>
+          </article>
+          <section>
+            <p>
+              Spend minimal $100 get 30% off
+              voucher code for your next purchase
+            </p>
+            <div>
+              <h2>1 June - 10 June 2021</h2>
+              <p>*Terms & Conditions apply</p>
+            </div>
+          </section>
+          <section>
+            <button class="btn shop_btn">SHOP NOW</button>
+          </section>
         </section>
       </section>
-      <section class="header__main-right">
-        <img src="img/start.svg" alt="star">
-        <img src="img/start.svg" alt="star">
-        <img src="img/start.svg" alt="star">
-        <img src="img/start.svg" alt="star">
-        <img src="img/image_header.png" alt="girl">
+      <!-- FAVORITES -->
+      <section class="main__favorite">
+        <div class="container">
+          <div class="wraper">
+            <article>
+              <h1>Young's Favorites</h1>
+              <img src="/img/header__main-button.svg" alt="">
+            </article>
+            <section>
+              <div>
+                <span class="girl__favarite-img girl__favarite-img1"></span>
+                <aside>
+                  <div>
+                    <h4>Trending on instagram</h4>
+                    <p>Explore Now!</p>
+                  </div>
+                  <span>→</span>
+                </aside>
+              </div>
+              <div>
+                <span class="girl__favarite-img girl__favarite-img2"></span>
+                <aside>
+                  <div>
+                    <h4>All Under $40</h4>
+                    <p>Explore Now!</p>
+                  </div>
+                  <span>→</span>
+                </aside>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- PHONE -->
+      <section class="main__phone">
+        <div class="container">
+          <div class="wraper">
+            <section class="main__phone-text">
+              <h2>
+                DOWNLOAD APP &<br>
+                GET THE VOUCHER!
+              </h2>
+              <p>
+                Get 30% off for first transaction using<br>
+                Rondovision mobile app for now.
+              </p>
+              <div>
+                <button class="">
+                  <img src="/img/rectangle_ios.svg" alt="iPhone">
+                </button>
+                <button class="">
+                  <img src="/img/rectangle_and.svg" alt="Android">
+                </button>
+              </div>
+            </section>
+            <section class="main__phone-block">
+              <span class="circle-border" style="--width:440px"></span>
+              <span class="circle-border" style="--width:535px"></span>
+              <span class="circle-border" style="--width:635px"></span>
+              <div class="phone">
+                <div class="container_phone">
+                  <div class="wraper">
+                    <header>
+                      <img src="/img/apps.svg" alt="">
+                      <span></span>
+                    </header>
+                    <main>
+                      <article>
+                        <h2>Match your style</h2>
+                        <img src="/img/header__main-button.svg" alt="">
+                      </article>
+                      <div class="main-phone__search">
+                        <i>
+                          <img src="/img/search.svg" alt="">
+                        </i>
+                        <input type="text" placeholder="Search" disabled>
+                      </div>
+                      <div class="main-phone__categories">
+                        <button>Trending Now</button>
+                        <button>All</button>
+                        <button>New</button>
+                      </div>
+                      <div class="main-phone__product">
+                        <section>
+                          <span class="img-girl_phone img-girl_phone1"></span>
+                          <article>
+                            <h5>Polkadot Red Dress</h5>
+                            <p>Rs. 1,499.00</p>
+                          </article>
+                        </section>
+                        <section>
+                          <span class="img-girl_phone img-girl_phone2"></span>
+                          <article>
+                            <h5>Striped Pink Dress</h5>
+                            <p>Rs. 1,299.00</p>
+                          </article>
+                        </section>
+                        <section>
+                          <span class="img-girl_phone img-girl_phone3"></span>
+                        </section>
+                        <section>
+                          <span class="img-girl_phone img-girl_phone4"></span>
+                        </section>
+                      </div>
+                    </main>
+                    <footer>
+                      <img src="/img/footer_phone_home.svg">
+                      <img src="/img/footer_phone_bol.svg">
+                      <img src="/img/footer_phone_kor.svg">
+                      <img src="/img/footer_phone_acc.svg">
+                    </footer>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- EMAIL -->
+      <section class="main__email">
+        <section class="main__email-text">
+          <h1>JOIN SHOPPING COMMUNITY TO <br> GET MONTHLY PROMO</h1>
+          <p>Type your email down below and be young wild generation</p>
+        </section>
+        <section class="main__email-input">
+          <input class="text-email" type="email" placeholder="Add your email here">
+          <button class="btn btn-email">SEND</button>
+        </section>
       </section>
     </main>
-  </header>
-  <main>
-    <!-- Вот тут -->
-    <section class="main_brand">
-      <!-- Картинки -->
-      <img src="Brands/HandM.png-removebg-preview.png" alt="brand">
-      <img src="Brands/obey-removebg-preview.png" alt="brand">
-      <img src="Brands/shopify-removebg-preview.png" alt="brand">
-      <img src="Brands/lacoste-removebg-preview.png" alt="brand">
-      <img src="Brands/levis-removebg-preview.png" alt="brand">
-      <img src="Brands/amazon-removebg-preview.png" alt="brand">
-    </section>
-    <section class="main_new-arrivals">
-      <h1>NEW ARRIVALS</h1>
-      <img src="img/header__main-button.svg" alt="">
-    </section>
-    <section>
-      <img src="img/image_main1.png">
-      <p><b>Hoodlies & Sweetshirt</b></p>
-      <p>Explore now</p>
-    </section>
-    <section>
-      <img src="img/image_main2.png">
-      <p><b>Coats & Parkas</b></p>
-      <p>Explore now</p>
-    </section>
-    <section>
-      <img src="img/image_main3.png">
-      <p><b>Tees & T-Shirt</b></p>
-      <p>Explore now</p>
-    </section>
-  </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="wraper">
+          <section class="footer__text">
+            <h2>FASHION</h2>
+            <p>Complete your style with awesome<br> clothes from us.</p>
+            <div>
+              <span><img src="img/bxl-facebook.svg" alt="facebook"></span>
+              <span><img src="img/bxl-instagram.svg" alt="inst"></span>
+              <span><img src="img/bxl-twitter.svg" alt="tw"></span>
+              <span><img src="img/bxl-invision.svg" alt="in"></span>
+            </div>
+          </section>
+          <div class="footer__links">
+            <section class="footer__company">
+              <nav>
+                <ul>
+                  <li><p>Company</p></li>
+                  <li><a>About</a></li>
+                  <li><a>Contact us</a></li>
+                  <li><a>Support</a></li>
+                  <li><a>Careers</a></li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer__quick">
+              <nav>
+                <ul>
+                  <li><p>Quick Link</p></li>
+                  <li><a>Share Location</a></li>
+                  <li><a>Orders Tracking</a></li>
+                  <li><a>Size Guide</a></li>
+                  <li><a>FAQs</a></li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer__legal">
+              <nav>
+                <ul>
+                  <li><p>Legal</p></li>
+                  <li><a>Terms & conditions</a></li>
+                  <li><a>Privacy Policy</a></li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- JS -->
   <script src="js/script.js"></script>
 </body>
 
 </html>
-<!-- о интересно будет
-Начинай)
--->
-
-
-<!-- давай, если что - помогу -->
